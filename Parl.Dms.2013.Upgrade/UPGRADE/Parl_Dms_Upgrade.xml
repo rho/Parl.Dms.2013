@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config xmlns="urn:Microsoft.SharePoint.Upgrade">
+  <WebTemplate
+    ID="12100"
+    LocaleId="*"
+    FromProductVersion="4"
+    BeginFromSchemaVersion="0"
+    EndFromSchemaVersion="2"
+    ToSchemaVersion="3">
+    <AppliedWebFeatures>
+      <!-- Parl.Dms.Upgrade feature -->
+      <Feature ID="bae573b5-161d-4fb0-9173-102baeccc79a" />
+    </AppliedWebFeatures>
+  </WebTemplate>
+</Config>

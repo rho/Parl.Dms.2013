@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="324542a6-f2df-44c1-81cd-6991a3a2e8c8" solutionId="324542a6-f2df-44c1-81cd-6991a3a2e8c8" resetWebServer="false" sharePointProductVersion="15.0" name="Parl.Dms.Upgrade" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="1399281b-e485-4b08-a488-b95fcbf3472c" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="bbeb4f6c-2e80-4de2-8b4c-80da9ef27466" />
+    <projectItemReference itemId="4049524a-1e99-4731-b58c-6e7d3a0cfa0d" />
+  </projectItems>
+</package>
