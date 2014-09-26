@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="018da747-99ce-46c3-85c2-eac4aa99af8e" 
+        solutionId="018da747-99ce-46c3-85c2-eac4aa99af8e" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Parl.Dms._2013.Core"
+        sharePointProductVersion="15.0">
+</package>
