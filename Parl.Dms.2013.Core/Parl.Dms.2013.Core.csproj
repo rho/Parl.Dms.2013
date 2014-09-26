@@ -7,7 +7,7 @@
     <ProjectGuid>{E12B10BE-C031-4568-B1A4-C53110250C24}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Parl.Dms._2013.Core</RootNamespace>
+    <RootNamespace>Parl.Dms.Core</RootNamespace>
     <AssemblyName>Parl.Dms.2013.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetOfficeVersion>15.0</TargetOfficeVersion>
@@ -54,6 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\AppResources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{da872455-fa1d-498b-8aee-a6f3cbb20fbe}</SharePointProjectItemId>
+    </None>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
       <PackageId>{018da747-99ce-46c3-85c2-eac4aa99af8e}</PackageId>
@@ -61,9 +64,22 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="Resources\Resources\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{af4d2092-4018-4feb-889b-fdad6417be91}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Features\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\AppResources\Elements.xml" />
+    <Content Include="Resources\Resources\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources\Parl.Dms.Core.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\AppResources\Parl.Dms.Core.AppResources.resx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -7,11 +7,11 @@ using System.Security;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Parl.Dms.2013.Core")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("DMS Core Solution")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Parl.Dms.2013.Core")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCompany("Swiss Parliament")]
+[assembly: AssemblyProduct("Swiss Parliament DMS")]
+[assembly: AssemblyCopyright("Copyright © Swiss Parliament 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
