@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="018da747-99ce-46c3-85c2-eac4aa99af8e" 
-        solutionId="018da747-99ce-46c3-85c2-eac4aa99af8e" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="Parl.Dms._2013.Core"
-        sharePointProductVersion="15.0">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="018da747-99ce-46c3-85c2-eac4aa99af8e" solutionId="018da747-99ce-46c3-85c2-eac4aa99af8e" resetWebServer="false" sharePointProductVersion="15.0" name="Parl.Dms._2013.Core" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="af4d2092-4018-4feb-889b-fdad6417be91" />
+    <projectItemReference itemId="da872455-fa1d-498b-8aee-a6f3cbb20fbe" />
+  </projectItems>
 </package>
